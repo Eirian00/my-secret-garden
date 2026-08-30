@@ -6,10 +6,11 @@
         xmlns:tools="http://schemas.android.com/tools" />
 
     <application
-        android:allowBackup="true"
-        android:label="春日监督"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.KasugaSupervisor">
+    android:allowBackup="true"
+    android:label="春日监督"
+    android:supportsRtl="true"
+    android:usesCleartextTraffic="true"
+    android:theme="@style/Theme.KasugaSupervisor">
 
         <activity
             android:name=".MainActivity"
